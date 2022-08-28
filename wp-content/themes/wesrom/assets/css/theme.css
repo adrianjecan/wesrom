@@ -4,6 +4,9 @@
 :root {
     --main-color: #02B5EE;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 b,body,strong{
     font-weight:400
@@ -67,7 +70,7 @@ body{
 }
 @media (min-width:768px){
     .container{
-        max-width:1190px
+        max-width:1128px
     }
 }
 @media (min-width:992px){

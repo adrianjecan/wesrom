@@ -11,18 +11,21 @@
  * @since 1.0
  * @version 1.2
  */
-
 ?>
 
-		</div><!-- #content -->
+</div><!-- #content -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="wrap">
-
-
-			</div><!-- .wrap -->
-		</footer><!-- #colophon -->
-	</div><!-- .site-content-contain -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="container">
+        <?php if (function_exists('dynamic_sidebar')) {
+            dynamic_sidebar("Footer widget 1");
+            dynamic_sidebar("Footer widget 2");
+            dynamic_sidebar("Footer widget 3");
+            dynamic_sidebar("Footer widget 4");
+        } ?>
+    </div><!-- .wrap -->
+</footer><!-- #colophon -->
+</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
 

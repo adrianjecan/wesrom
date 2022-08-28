@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 28, 2022 at 05:27 PM
+-- Generation Time: Aug 28, 2022 at 06:44 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.4.0
 
@@ -208,8 +208,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (101, 'fresh_site', '0', 'yes'),
 (102, 'user_count', '1', 'no'),
 (103, 'widget_block', 'a:6:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:154:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:227:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:146:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:150:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
-(104, 'sidebars_widgets', 'a:2:{s:19:\"wp_inactive_widgets\";a:5:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:8:{i:1661709574;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1661749174;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1661749182;a:1:{s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1661792374;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1661792382;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1661792383;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1662137974;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
+(104, 'sidebars_widgets', 'a:6:{s:19:\"wp_inactive_widgets\";a:5:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";}s:9:\"sidebar-1\";a:1:{i:0;s:10:\"nav_menu-3\";}s:9:\"sidebar-2\";a:1:{i:0;s:10:\"nav_menu-2\";}s:9:\"sidebar-3\";a:0:{}s:9:\"sidebar-4\";a:0:{}s:13:\"array_version\";i:3;}', 'yes'),
+(105, 'cron', 'a:8:{i:1661713174;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1661749174;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1661749182;a:1:{s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1661792374;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1661792382;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1661792383;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1662137974;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -220,7 +220,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (113, 'widget_meta', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (114, 'widget_search', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (115, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(116, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
+(116, 'widget_nav_menu', 'a:3:{i:2;a:2:{s:5:\"title\";s:9:\"Divisions\";s:8:\"nav_menu\";i:4;}i:3;a:2:{s:5:\"title\";s:7:\"Company\";s:8:\"nav_menu\";i:5;}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (117, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (119, 'recovery_keys', 'a:0:{}', 'yes'),
 (204, '_site_transient_browser_b20f96e5878b0a47ff8626c8f757e35b', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:9:\"104.0.0.0\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
@@ -258,8 +258,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (153, 'current_theme', '', 'yes'),
 (154, 'theme_mods_wesrom', 'a:5:{i:0;b:0;s:18:\"nav_menu_locations\";a:1:{s:18:\"wesrom-custom-menu\";i:3;}s:18:\"custom_css_post_id\";i:-1;s:11:\"header_text\";i:1;s:11:\"custom_logo\";i:22;}', 'yes'),
 (155, 'theme_switched', '', 'yes'),
-(260, '_transient_timeout_global_styles_wesrom', '1661706762', 'no'),
-(261, '_transient_global_styles_wesrom', 'body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url(\'#wp-duotone-dark-grayscale\');--wp--preset--duotone--grayscale: url(\'#wp-duotone-grayscale\');--wp--preset--duotone--purple-yellow: url(\'#wp-duotone-purple-yellow\');--wp--preset--duotone--blue-red: url(\'#wp-duotone-blue-red\');--wp--preset--duotone--midnight: url(\'#wp-duotone-midnight\');--wp--preset--duotone--magenta-yellow: url(\'#wp-duotone-magenta-yellow\');--wp--preset--duotone--purple-green: url(\'#wp-duotone-purple-green\');--wp--preset--duotone--blue-orange: url(\'#wp-duotone-blue-orange\');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}', 'no'),
+(291, '_transient_timeout_global_styles_wesrom', '1661712073', 'no'),
+(292, '_transient_global_styles_wesrom', 'body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url(\'#wp-duotone-dark-grayscale\');--wp--preset--duotone--grayscale: url(\'#wp-duotone-grayscale\');--wp--preset--duotone--purple-yellow: url(\'#wp-duotone-purple-yellow\');--wp--preset--duotone--blue-red: url(\'#wp-duotone-blue-red\');--wp--preset--duotone--midnight: url(\'#wp-duotone-midnight\');--wp--preset--duotone--magenta-yellow: url(\'#wp-duotone-magenta-yellow\');--wp--preset--duotone--purple-green: url(\'#wp-duotone-purple-green\');--wp--preset--duotone--blue-orange: url(\'#wp-duotone-blue-orange\');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}', 'no'),
 (158, 'recently_activated', 'a:0:{}', 'yes'),
 (203, '_site_transient_timeout_browser_b20f96e5878b0a47ff8626c8f757e35b', '1662294948', 'no'),
 (201, '_transient_health-check-site-status-result', '{\"good\":14,\"recommended\":5,\"critical\":0}', 'yes');
@@ -332,6 +332,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (60, 23, '_wp_trash_meta_time', '1661693513'),
 (71, 28, '_menu_item_xfn', ''),
 (72, 28, '_menu_item_url', ''),
+(83, 30, '_menu_item_type', 'custom'),
 (74, 29, '_menu_item_type', 'post_type'),
 (75, 29, '_menu_item_menu_item_parent', '0'),
 (76, 29, '_menu_item_object_id', '24'),
@@ -339,7 +340,88 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (78, 29, '_menu_item_target', ''),
 (79, 29, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (80, 29, '_menu_item_xfn', ''),
-(81, 29, '_menu_item_url', '');
+(81, 29, '_menu_item_url', ''),
+(84, 30, '_menu_item_menu_item_parent', '0'),
+(85, 30, '_menu_item_object_id', '30'),
+(86, 30, '_menu_item_object', 'custom'),
+(87, 30, '_menu_item_target', ''),
+(88, 30, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(89, 30, '_menu_item_xfn', ''),
+(90, 30, '_menu_item_url', '#'),
+(132, 35, '_menu_item_target', ''),
+(92, 31, '_menu_item_type', 'custom'),
+(93, 31, '_menu_item_menu_item_parent', '0'),
+(94, 31, '_menu_item_object_id', '31'),
+(95, 31, '_menu_item_object', 'custom'),
+(96, 31, '_menu_item_target', ''),
+(97, 31, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(98, 31, '_menu_item_xfn', ''),
+(99, 31, '_menu_item_url', '#'),
+(131, 35, '_menu_item_object', 'custom'),
+(101, 32, '_menu_item_type', 'custom'),
+(102, 32, '_menu_item_menu_item_parent', '0'),
+(103, 32, '_menu_item_object_id', '32'),
+(104, 32, '_menu_item_object', 'custom'),
+(105, 32, '_menu_item_target', ''),
+(106, 32, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(107, 32, '_menu_item_xfn', ''),
+(108, 32, '_menu_item_url', '#'),
+(130, 35, '_menu_item_object_id', '35'),
+(110, 33, '_menu_item_type', 'custom'),
+(111, 33, '_menu_item_menu_item_parent', '0'),
+(112, 33, '_menu_item_object_id', '33'),
+(113, 33, '_menu_item_object', 'custom'),
+(114, 33, '_menu_item_target', ''),
+(115, 33, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(116, 33, '_menu_item_xfn', ''),
+(117, 33, '_menu_item_url', '#'),
+(129, 35, '_menu_item_menu_item_parent', '0'),
+(119, 34, '_menu_item_type', 'custom'),
+(120, 34, '_menu_item_menu_item_parent', '0'),
+(121, 34, '_menu_item_object_id', '34'),
+(122, 34, '_menu_item_object', 'custom'),
+(123, 34, '_menu_item_target', ''),
+(124, 34, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(125, 34, '_menu_item_xfn', ''),
+(126, 34, '_menu_item_url', '#'),
+(128, 35, '_menu_item_type', 'custom'),
+(133, 35, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(134, 35, '_menu_item_xfn', ''),
+(135, 35, '_menu_item_url', '#'),
+(137, 36, '_menu_item_type', 'custom'),
+(138, 36, '_menu_item_menu_item_parent', '0'),
+(139, 36, '_menu_item_object_id', '36'),
+(140, 36, '_menu_item_object', 'custom'),
+(141, 36, '_menu_item_target', ''),
+(142, 36, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(143, 36, '_menu_item_xfn', ''),
+(144, 36, '_menu_item_url', '#'),
+(146, 37, '_menu_item_type', 'custom'),
+(147, 37, '_menu_item_menu_item_parent', '0'),
+(148, 37, '_menu_item_object_id', '37'),
+(149, 37, '_menu_item_object', 'custom'),
+(150, 37, '_menu_item_target', ''),
+(151, 37, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(152, 37, '_menu_item_xfn', ''),
+(153, 37, '_menu_item_url', '#'),
+(155, 38, '_menu_item_type', 'custom'),
+(156, 38, '_menu_item_menu_item_parent', '0'),
+(157, 38, '_menu_item_object_id', '38'),
+(158, 38, '_menu_item_object', 'custom'),
+(159, 38, '_menu_item_target', ''),
+(160, 38, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(161, 38, '_menu_item_xfn', ''),
+(162, 38, '_menu_item_url', '#'),
+(174, 40, '_wp_trash_meta_time', '1661710494'),
+(164, 39, '_menu_item_type', 'custom'),
+(165, 39, '_menu_item_menu_item_parent', '0'),
+(166, 39, '_menu_item_object_id', '39'),
+(167, 39, '_menu_item_object', 'custom'),
+(168, 39, '_menu_item_target', ''),
+(169, 39, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(170, 39, '_menu_item_xfn', ''),
+(171, 39, '_menu_item_url', '#'),
+(173, 40, '_wp_trash_meta_status', 'publish');
 
 -- --------------------------------------------------------
 
@@ -392,17 +474,28 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (14, 1, '2022-08-28 13:00:23', '2022-08-28 13:00:23', '', 'Digital Marketing', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2022-08-28 13:00:23', '2022-08-28 13:00:23', '', 13, 'http://wesrom.com/?p=14', 0, 'revision', '', 0),
 (15, 1, '2022-08-28 13:00:32', '2022-08-28 13:00:32', '', 'Consulting', '', 'publish', 'closed', 'closed', '', 'consulting', '', '', '2022-08-28 13:00:32', '2022-08-28 13:00:32', '', 0, 'http://wesrom.com/?page_id=15', 0, 'page', '', 0),
 (16, 1, '2022-08-28 13:00:32', '2022-08-28 13:00:32', '', 'Consulting', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2022-08-28 13:00:32', '2022-08-28 13:00:32', '', 15, 'http://wesrom.com/?p=16', 0, 'revision', '', 0),
-(18, 1, '2022-08-28 17:02:38', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '18', '', '', '2022-08-28 17:02:38', '2022-08-28 17:02:38', '', 0, 'http://wesrom.com/?p=18', 3, 'nav_menu_item', '', 0),
-(19, 1, '2022-08-28 17:02:38', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '19', '', '', '2022-08-28 17:02:38', '2022-08-28 17:02:38', '', 0, 'http://wesrom.com/?p=19', 2, 'nav_menu_item', '', 0),
-(21, 1, '2022-08-28 17:02:38', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '21', '', '', '2022-08-28 17:02:38', '2022-08-28 17:02:38', '', 0, 'http://wesrom.com/?p=21', 1, 'nav_menu_item', '', 0),
+(18, 1, '2022-08-28 18:17:10', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '18', '', '', '2022-08-28 18:17:10', '2022-08-28 18:17:10', '', 0, 'http://wesrom.com/?p=18', 3, 'nav_menu_item', '', 0),
+(19, 1, '2022-08-28 18:17:10', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '19', '', '', '2022-08-28 18:17:10', '2022-08-28 18:17:10', '', 0, 'http://wesrom.com/?p=19', 2, 'nav_menu_item', '', 0),
+(21, 1, '2022-08-28 18:17:10', '2022-08-28 13:06:02', ' ', '', '', 'publish', 'closed', 'closed', '', '21', '', '', '2022-08-28 18:17:10', '2022-08-28 18:17:10', '', 0, 'http://wesrom.com/?p=21', 1, 'nav_menu_item', '', 0),
 (25, 1, '2022-08-28 17:02:01', '2022-08-28 17:02:01', '', 'Company', '', 'inherit', 'closed', 'closed', '', '24-revision-v1', '', '', '2022-08-28 17:02:01', '2022-08-28 17:02:01', '', 24, 'http://wesrom.com/?p=25', 0, 'revision', '', 0),
 (24, 1, '2022-08-28 17:02:01', '2022-08-28 17:02:01', '', 'Company', '', 'publish', 'closed', 'closed', '', 'company', '', '', '2022-08-28 17:02:01', '2022-08-28 17:02:01', '', 0, 'http://wesrom.com/?page_id=24', 0, 'page', '', 0),
 (22, 1, '2022-08-28 13:31:21', '2022-08-28 13:31:21', '', 'wesrom logo', '', 'inherit', 'open', 'closed', '', 'wesrom-logo', '', '', '2022-08-28 13:31:21', '2022-08-28 13:31:21', '', 0, 'http://wesrom.com/wp-content/uploads/2022/08/wesrom-logo.png', 0, 'attachment', 'image/png', 0),
 (23, 1, '2022-08-28 13:31:53', '2022-08-28 13:31:53', '{\n    \"blogdescription\": {\n        \"value\": \"\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2022-08-28 13:31:53\"\n    },\n    \"wesrom::header_text\": {\n        \"value\": true,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2022-08-28 13:31:53\"\n    },\n    \"wesrom::custom_logo\": {\n        \"value\": 22,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2022-08-28 13:31:53\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'da1bc077-20cf-4cdc-8a69-47787d79d3c2', '', '', '2022-08-28 13:31:53', '2022-08-28 13:31:53', '', 0, 'http://wesrom.com/2022/08/28/da1bc077-20cf-4cdc-8a69-47787d79d3c2/', 0, 'customize_changeset', '', 0),
 (26, 1, '2022-08-28 17:02:13', '2022-08-28 17:02:13', '', 'Contact', '', 'publish', 'closed', 'closed', '', 'contact', '', '', '2022-08-28 17:02:13', '2022-08-28 17:02:13', '', 0, 'http://wesrom.com/?page_id=26', 0, 'page', '', 0),
 (27, 1, '2022-08-28 17:02:13', '2022-08-28 17:02:13', '', 'Contact', '', 'inherit', 'closed', 'closed', '', '26-revision-v1', '', '', '2022-08-28 17:02:13', '2022-08-28 17:02:13', '', 26, 'http://wesrom.com/?p=27', 0, 'revision', '', 0),
-(28, 1, '2022-08-28 17:02:38', '2022-08-28 17:02:38', ' ', '', '', 'publish', 'closed', 'closed', '', '28', '', '', '2022-08-28 17:02:38', '2022-08-28 17:02:38', '', 0, 'http://wesrom.com/?p=28', 5, 'nav_menu_item', '', 0),
-(29, 1, '2022-08-28 17:02:38', '2022-08-28 17:02:38', ' ', '', '', 'publish', 'closed', 'closed', '', '29', '', '', '2022-08-28 17:02:38', '2022-08-28 17:02:38', '', 0, 'http://wesrom.com/?p=29', 4, 'nav_menu_item', '', 0);
+(28, 1, '2022-08-28 18:17:10', '2022-08-28 17:02:38', ' ', '', '', 'publish', 'closed', 'closed', '', '28', '', '', '2022-08-28 18:17:10', '2022-08-28 18:17:10', '', 0, 'http://wesrom.com/?p=28', 5, 'nav_menu_item', '', 0),
+(29, 1, '2022-08-28 18:17:10', '2022-08-28 17:02:38', ' ', '', '', 'publish', 'closed', 'closed', '', '29', '', '', '2022-08-28 18:17:10', '2022-08-28 18:17:10', '', 0, 'http://wesrom.com/?p=29', 4, 'nav_menu_item', '', 0),
+(30, 1, '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 'Wesrom Engineering', '', 'publish', 'closed', 'closed', '', 'wesrom-engineering', '', '', '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 0, 'http://wesrom.com/?p=30', 1, 'nav_menu_item', '', 0),
+(31, 1, '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 'Wesrom Digital', '', 'publish', 'closed', 'closed', '', 'wesrom-digital', '', '', '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 0, 'http://wesrom.com/?p=31', 2, 'nav_menu_item', '', 0),
+(32, 1, '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 'Wesrom Consulting', '', 'publish', 'closed', 'closed', '', 'wesrom-consulting', '', '', '2022-08-28 18:09:14', '2022-08-28 18:09:14', '', 0, 'http://wesrom.com/?p=32', 3, 'nav_menu_item', '', 0),
+(33, 1, '2022-08-28 18:09:15', '2022-08-28 18:09:15', '', 'Wesrom University', '', 'publish', 'closed', 'closed', '', 'wesrom-university', '', '', '2022-08-28 18:09:15', '2022-08-28 18:09:15', '', 0, 'http://wesrom.com/?p=33', 4, 'nav_menu_item', '', 0),
+(34, 1, '2022-08-28 18:09:15', '2022-08-28 18:09:15', '', 'Wesrom Ventures', '', 'publish', 'closed', 'closed', '', 'wesrom-ventures', '', '', '2022-08-28 18:09:15', '2022-08-28 18:09:15', '', 0, 'http://wesrom.com/?p=34', 5, 'nav_menu_item', '', 0),
+(35, 1, '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 'Corporate Overview', '', 'publish', 'closed', 'closed', '', 'corporate-overview', '', '', '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 0, 'http://wesrom.com/?p=35', 1, 'nav_menu_item', '', 0),
+(36, 1, '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 'Corporate Governance', '', 'publish', 'closed', 'closed', '', 'corporate-governance', '', '', '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 0, 'http://wesrom.com/?p=36', 2, 'nav_menu_item', '', 0),
+(37, 1, '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 'Corporate Responsability', '', 'publish', 'closed', 'closed', '', 'corporate-responsability', '', '', '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 0, 'http://wesrom.com/?p=37', 3, 'nav_menu_item', '', 0),
+(38, 1, '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 'News & Insights', '', 'publish', 'closed', 'closed', '', 'news-insights', '', '', '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 0, 'http://wesrom.com/?p=38', 4, 'nav_menu_item', '', 0),
+(39, 1, '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 'Career Oportunities', '', 'publish', 'closed', 'closed', '', 'career-oportunities', '', '', '2022-08-28 18:10:24', '2022-08-28 18:10:24', '', 0, 'http://wesrom.com/?p=39', 5, 'nav_menu_item', '', 0),
+(40, 1, '2022-08-28 18:14:54', '2022-08-28 18:14:54', '{\n    \"wesrom::nav_menu_locations[wesrom-custom-menu]\": {\n        \"value\": 3,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2022-08-28 18:14:54\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'fcecd407-4ac5-43b1-ad0b-bfd2dbb031e9', '', '', '2022-08-28 18:14:54', '2022-08-28 18:14:54', '', 0, 'http://wesrom.com/2022/08/28/fcecd407-4ac5-43b1-ad0b-bfd2dbb031e9/', 0, 'customize_changeset', '', 0);
 
 -- --------------------------------------------------------
 
@@ -437,7 +530,9 @@ CREATE TABLE `wp_terms` (
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (1, 'Uncategorized', 'uncategorized', 0),
 (2, 'wesrom', 'wesrom', 0),
-(3, 'Main menu', 'main-menu', 0);
+(3, 'Main menu', 'main-menu', 0),
+(4, 'Footer menu 2', 'footer-menu-2', 0),
+(5, 'Footer menu 1', 'footer-menu-1', 0);
 
 -- --------------------------------------------------------
 
@@ -462,7 +557,17 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (18, 3, 0),
 (19, 3, 0),
 (29, 3, 0),
-(21, 3, 0);
+(21, 3, 0),
+(30, 4, 0),
+(31, 4, 0),
+(32, 4, 0),
+(33, 4, 0),
+(34, 4, 0),
+(35, 5, 0),
+(36, 5, 0),
+(37, 5, 0),
+(38, 5, 0),
+(39, 5, 0);
 
 -- --------------------------------------------------------
 
@@ -486,7 +591,9 @@ CREATE TABLE `wp_term_taxonomy` (
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 1),
 (2, 2, 'wp_theme', '', 0, 1),
-(3, 3, 'nav_menu', '', 0, 5);
+(3, 3, 'nav_menu', '', 0, 5),
+(4, 4, 'nav_menu', '', 0, 5),
+(5, 5, 'nav_menu', '', 0, 5);
 
 -- --------------------------------------------------------
 
@@ -527,7 +634,8 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (19, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (20, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
 (21, 1, 'wp_user-settings', 'libraryContent=browse'),
-(22, 1, 'wp_user-settings-time', '1661694919');
+(22, 1, 'wp_user-settings-time', '1661694919'),
+(23, 1, 'nav_menu_recently_edited', '3');
 
 -- --------------------------------------------------------
 
@@ -685,19 +793,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=262;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=293;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=175;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
@@ -709,19 +817,19 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `wp_users`

@@ -176,3 +176,44 @@ p{
     text-decoration-thickness: 3px;
     text-decoration-color: var(--main-color);
 }
+
+
+
+/**
+ * Footer
+ *
+ */
+
+footer {
+    padding: 2% 0;
+    background-color: #fafafa;
+    font-size: 20px;
+}
+footer .footer-widget {
+    width: 25%;
+    display: inline-block;
+}
+footer h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+footer a {
+    color: #000;   
+}
+footer a:hover {
+    color: var(--main-color);
+}
+footer .menu > li {
+    margin-bottom: 10px;
+}
+
+
+/**
+ * Page content
+ *
+ */
+
+#main {
+    min-height: calc(100vh - 400px);
+}

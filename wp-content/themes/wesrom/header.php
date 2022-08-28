@@ -30,9 +30,9 @@
         <?php } ?>
       </div>
       <div id="main-menu" class="main-menu">
-           <?php wp_nav_menu(array('menu' => 'wesrom-custom-menu')); ?>
+           <?php wp_nav_menu(array('theme_location' => 'wesrom-custom-menu')); ?>
       </div>
   </header>
 
 	<div class="site-content-contain">
-		<div id="content" class="site-content">
+		<div id="main" class="site-content">
