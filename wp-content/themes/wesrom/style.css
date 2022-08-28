@@ -1,0 +1,178 @@
+/*
+Theme Name: Wesrom
+Description:
+Version: 1.0
+Author: Adrian Jecan
+*/
+
+
+/**
+ * Reset CSS
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+fieldset {
+    min-width: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    quotes: none;
+}
+
+a:focus {
+    /*outline: 2px solid #c1c1c1;*/
+    /*outline: 2px solid rgba(51, 51, 51, 0.3);*/
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+a img {
+    border: 0;
+}
+
+body{
+    background-color: #FFF;
+}
+
+
+.img-circle {
+    -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+}
+
+p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#646464;
+    margin-top: 15px;
+}
+
+.no-bord{
+    border: none !important;
+}
+
+.no-mar{
+    margin: 0 !important;
+}
+
+.gutter-10{
+    padding:0 5px;
+}
+
+.gutter-0{
+    padding:0;
+}
+
+.text-color{color: #003891;}
+
+::-moz-selection {
+    background: rgba(255, 101, 70, 0.2);
+}
+
+::selection {
+    background: rgba(255, 101, 70, 0.2);
+}
+
+.btn{ padding: 10px 14px; background-color: #003891; outline: none; border:none; border-bottom: solid 2px #022b6c; border-right: solid 2px #022b6c; color: #FFF;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out; -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px; text-transform: uppercase; font-size: 16px; display: inline-block; }
+.btn:hover{background-color: #022b6c; color: #FFF; cursor: pointer;-webkit-box-shadow:0px 8px 9px -3px rgba(0,0,0,0.5); box-shadow:0px 8px 9px -6px rgba(0,0,0,0.5); }
+/*.btn.btn-block {display: block; text-align: center;}*/
+
+
+/**
+ * Header
+ *
+ */
+#masterhead {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    -moz-box-shadow:    0px 0px 0px 1px #e5e5e5;
+    -webkit-box-shadow: 0px 0px 0px 1px #e5e5e5;
+    box-shadow:         0px 0px 0px 1px #e5e5e5;
+}
+#masterhead .logo {
+    width: 170px;
+}
+#main-menu {
+    width: calc(100% - 170px);
+}
+#main-menu ul.menu {
+    display: flex;
+    justify-content: right;
+}
+#main-menu .menu-item {
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;    
+    font-weight: bold;
+}
+#main-menu a {
+    color: #949494;
+}
+#main-menu a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--main-color);
+}
