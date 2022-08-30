@@ -20,15 +20,5 @@ remove_action('wp_head','rest_output_link_wp_head');
 remove_action('wp_head','wp_oembed_add_discovery_links');
 remove_action('wp_head','wp_resource_hints', 2 );
 
-//Disable Visual Editor for all users
-add_filter( 'user_can_richedit' , '__return_false', 50 );
-add_filter( 'wp_default_scripts', 'dequeue_jquery_migrate' );
-
-function dequeue_jquery_migrate( &$scripts){
-	if(!is_admin()){
-		$scripts->remove( 'jquery');
-		$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
-	}
-}
 
 ?>

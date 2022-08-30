@@ -5,6 +5,7 @@ Version: 1.0
 Author: Adrian Jecan
 */
 
+@import url('http://fonts.cdnfonts.com/css/montserrat');
 
 /**
  * Reset CSS
@@ -100,13 +101,6 @@ body{
     -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
 }
 
-p{
-    font-size: 16px;
-    line-height: 20px;
-    color:#646464;
-    margin-top: 15px;
-}
-
 .no-bord{
     border: none !important;
 }
@@ -135,7 +129,45 @@ p{
 
 .btn{ padding: 10px 14px; background-color: #003891; outline: none; border:none; border-bottom: solid 2px #022b6c; border-right: solid 2px #022b6c; color: #FFF;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out; -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px; text-transform: uppercase; font-size: 16px; display: inline-block; }
 .btn:hover{background-color: #022b6c; color: #FFF; cursor: pointer;-webkit-box-shadow:0px 8px 9px -3px rgba(0,0,0,0.5); box-shadow:0px 8px 9px -6px rgba(0,0,0,0.5); }
-/*.btn.btn-block {display: block; text-align: center;}*/
+ul {
+    padding: 0;
+}
+
+/**
+ * General rules
+ *
+ */
+:root {
+    --main-color: #02B5EE;
+}
+body {
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 20px;
+    color: #000;
+}
+.container{
+    max-width: 1128px;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    margin: 50px 0;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    line-height: 56px; 
+    font-weight: 400;
+    margin: 0;
+}
+.width-50 {
+    width: 49%;
+}
+.inline-block {
+    display: inline-block;
+}
 
 
 /**
@@ -172,9 +204,7 @@ p{
     color: #949494;
 }
 #main-menu a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--main-color);
+    color: var(--main-color);
 }
 
 
@@ -216,4 +246,59 @@ footer .menu > li {
 
 #main {
     min-height: calc(100vh - 400px);
+}
+.form-container {
+    border-top: 8px solid var(--main-color);
+    background-color: #FAFAFA;
+    padding: 40px 60px;
+}
+#request-form .form-control {
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid #D2D2D2;
+}
+#request-form .form-control:focus {
+    outline: none;
+}
+#request-form .form-group {
+    margin-bottom: 30px;
+}
+#request-form .form-control::placehoder {
+    color: #949494;
+}
+#request-form .subheading {
+    margin-bottom: 50px;
+}
+#request-form .first-column {
+    padding-right: 65px;
+    box-sizing: border-box;
+}
+#request-form .form-button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border: none;
+    background-color: var(--main-color);
+    cursor: pointer;   
+}
+#request-form .disclaimer {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+#request-form  .button-wrapper {
+    display: flex;
+    align-items: center;
+}
+#request-form .form-error {
+    font-size: 15px;
+    color: red;
 }

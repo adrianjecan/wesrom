@@ -15,7 +15,6 @@
 <!-- <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> -->
 
 <?php wp_head(); ?>
-<?php error_log(print_r('',1)); ?>
 </head>
 
 <body <?php body_class(); ?>>
